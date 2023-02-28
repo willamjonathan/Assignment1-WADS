@@ -128,14 +128,15 @@
     margin: 0 auto;
     position:absolute;
     left:30%;
+    height:20%;
   }
 
-.footer fade-in {
+.fade-in {
     opacity: 0;
     transition: opacity 2s ease-in-out;
   }
 
-.footer fade-in.active {
+.fade-in.active {
     opacity: 1;
   }
 /* DESKTOP VERSION */
